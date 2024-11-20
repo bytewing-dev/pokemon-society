@@ -1,0 +1,26 @@
+{
+  "name": "pokemon-society",
+  "version": "1.0.0",
+  "description": "School project in which I worked on creating a REST API interacting with a MySQL database. I'm planning on continuing this project on my free time to learn React.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc -w --outDir dist",
+    "start": "node dist/main.js",
+    "dev": "nodemon ./src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4",
+    "typescript": "^5.6.3",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
